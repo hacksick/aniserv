@@ -104,4 +104,4 @@ def upload_sensor_csv():
 
 if __name__ == '__main__':
     threading.Thread(target=update_sensor_data, daemon=True).start()
-    app.run(host='0.0.0.0', port=4000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
